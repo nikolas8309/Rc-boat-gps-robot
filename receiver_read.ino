@@ -5,8 +5,8 @@
 uint16_t rc_values;
 uint32_t rc_start;
 volatile uint16_t rc_shared;
-int minLimit = 1350;
-int maxLimit = 1450;
+int minLimit = 1200;
+int maxLimit = 1800;
 
 void rc_read_values() {
     noInterrupts();
